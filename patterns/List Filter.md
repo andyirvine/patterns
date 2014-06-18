@@ -14,7 +14,7 @@ Use on every list that has filter controls in the main application.
 
 ## In Action
 
-<video width=402 height=802 controls>
+<video width=412 height=772 controls>
   <source src=../videos/list_filter.mov type=video/mp4>
 </video>
 
