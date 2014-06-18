@@ -87,7 +87,7 @@ main.pattern{
 	width:70%;
 	top:50px;
 	border-top:1px solid #eee;
-	padding-top:50px;
+	padding:50px 0;
 }
 
 main.pattern h1{
@@ -101,3 +101,10 @@ main.pattern h2{
 	font-weight: bold;
 }
 
+video{
+	/* Rectangle 1: */
+	background: #D8D8D8;
+	border: 1px solid #979797;
+	-moz-box-shadow:    6px 5px 11px 0px rgba(0,0,0,0.50);
+	box-shadow:         6px 5px 11px 0px rgba(0,0,0,0.50);
+}
