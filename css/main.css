@@ -52,7 +52,7 @@ a:visited { color: #205caa; }
 
 .nav-primary{
 	width:20%;
-	position: absolute;
+	position: fixed;
 	left:20px;
 	top:113px;
 	border-top:1px solid #eee;
@@ -69,16 +69,26 @@ a:visited { color: #205caa; }
 .nav-primary ul{
 	list-style-type:none;
 	margin-top: 30px;
+	
 }
 
 .nav-primary li{
-	padding:15px;
-	background : #7fbbe0;
-	border-bottom: 1px solid #fff;
+	
 }
 
 .nav-primary a{
 	color: #fff;
+	padding:15px;
+	background : #7fbbe0;
+	border-bottom: 1px solid #fff;
+	display: block;
+}
+
+.nav-primary a.active{
+	color: #fff;
+	padding:15px;
+	background : #ccc;
+	border-bottom: 1px solid #fff;
 }
 
 main.pattern{
