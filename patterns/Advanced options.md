@@ -6,7 +6,7 @@ title: Advanced options
 
 ## Description
 
-Meh
+This is where the advanced options goes
 
 ## Usage
 
