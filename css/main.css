@@ -52,7 +52,7 @@ a:visited { color: #205caa; }
 
 .nav-primary{
 	width:20%;
-	position: relative;
+	position: fixed;
 	left:20px;
 	top:113px;
 	border-top:1px solid #eee;
