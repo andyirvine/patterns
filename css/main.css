@@ -52,11 +52,12 @@ a:visited { color: #205caa; }
 
 .nav-primary{
 	width:20%;
-	position: fixed;
-	left:20px;
-	top:113px;
+	margin-left:20px;
+	float:left;
+	margin-top:50px;
 	border-top:1px solid #eee;
 	padding-top:50px;
+	margin-bottom:50px;
 }
 
 .nav-primary h2{
@@ -77,23 +78,20 @@ a:visited { color: #205caa; }
 }
 
 .nav-primary a{
-	color: #fff;
-	padding:15px;
-	background : #7fbbe0;
-	border-bottom: 1px solid #fff;
+	color: #7fbbe0;
+	padding:5px;
+/*	background : #7fbbe0;*/
+/*	border-bottom: 1px solid #fff;*/
 	display: block;
 }
 
 .nav-primary a.active{
-	color: #fff;
-	padding:15px;
-	background : #ccc;
-	border-bottom: 1px solid #fff;
+	color: #aaa;
 }
 
 main.pattern{
 	position: relative;
-	left:25%;
+	float:right;
 	width:70%;
 	top:50px;
 	border-top:1px solid #eee;
